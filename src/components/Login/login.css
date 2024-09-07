@@ -1,0 +1,68 @@
+/* Background image container */
+.bg-image {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.bg-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Center the form */
+.form-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 50vw; /* Adjust this as needed */
+  max-width: 400px; /* Set a max width to prevent it from getting too wide */
+  border-radius: 10px;
+  height: 70vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.form-container input {
+  padding: 17px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+}
+.form-container input::placeholder {
+  color: white;
+}
+
+.form-container button {
+  padding: 13px;
+  font-size: 18px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #f6121d;
+}
+.signin-header {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}

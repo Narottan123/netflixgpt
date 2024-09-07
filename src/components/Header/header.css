@@ -1,0 +1,6 @@
+.logo-container img {
+  height: 64px;
+  position: absolute;
+  background: linear-gradient(to bottom, #0a0500, transparent);
+  z-index: 1;
+}
